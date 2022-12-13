@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\juanj\\OneDrive\\Escritorio\\GLOBALTOURS\\API\\API.csproj": {}
+    "c:\\Users\\juanj\\OneDrive\\Escritorio\\GLOBALTOURS\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\juanj\\OneDrive\\Escritorio\\GLOBALTOURS\\API\\API.csproj": {
+    "c:\\Users\\juanj\\OneDrive\\Escritorio\\GLOBALTOURS\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\juanj\\OneDrive\\Escritorio\\GLOBALTOURS\\API\\API.csproj",
+        "projectUniqueName": "c:\\Users\\juanj\\OneDrive\\Escritorio\\GLOBALTOURS\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\juanj\\OneDrive\\Escritorio\\GLOBALTOURS\\API\\API.csproj",
+        "projectPath": "c:\\Users\\juanj\\OneDrive\\Escritorio\\GLOBALTOURS\\API\\API.csproj",
         "packagesPath": "C:\\Users\\juanj\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\juanj\\OneDrive\\Escritorio\\GLOBALTOURS\\API\\obj\\",
+        "outputPath": "c:\\Users\\juanj\\OneDrive\\Escritorio\\GLOBALTOURS\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\juanj\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -38,6 +38,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
