@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "uVtk1o3SPM6zGfvSaY67IALr4Gne/k3udE2rRoJwgWZQ3q+nHDuffsHl3hHJfYNyCYP4J29jz7Uj+ROPZANTnA==",
+  "dgSpecHash": "OlOkY9SX3sL3t3l2EaQsIaS1F/Ncy40UG5aXPD6WOiVqpvAaat9a4Oj5luBMUpBg3aWNGyXcaieuJfLRrsNVcw==",
   "success": true,
-  "projectFilePath": "c:\\Users\\juanj\\OneDrive\\Escritorio\\GLOBALTOURS\\API\\API.csproj",
+  "projectFilePath": "C:\\Users\\juanj\\OneDrive\\Escritorio\\GLOBALTOURS\\API\\API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\juanj\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\juanj\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.7\\microsoft.entityframeworkcore.6.0.7.nupkg.sha512",
     "C:\\Users\\juanj\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.7\\microsoft.entityframeworkcore.abstractions.6.0.7.nupkg.sha512",
     "C:\\Users\\juanj\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.7\\microsoft.entityframeworkcore.analyzers.6.0.7.nupkg.sha512",
+    "C:\\Users\\juanj\\.nuget\\packages\\microsoft.entityframeworkcore.design\\6.0.0\\microsoft.entityframeworkcore.design.6.0.0.nupkg.sha512",
     "C:\\Users\\juanj\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.7\\microsoft.entityframeworkcore.relational.6.0.7.nupkg.sha512",
     "C:\\Users\\juanj\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\juanj\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",

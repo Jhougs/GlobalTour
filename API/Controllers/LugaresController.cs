@@ -3,7 +3,10 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using Infraestructura.Datos;
+using Core.entidiades;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 
 namespace API.Controllers
@@ -12,18 +15,26 @@ namespace API.Controllers
     [ApiController]
     public class LugaresController : Controller
     {
-        [HttpGet]
-        public string getLugares()
+        private  ApplicationDbContext _DbContext { get; }
+        public LugaresController(ApplicationDbContext dbContext )
         {
-            return "Esta sera una lista de lugares";
+            _DbContext = dbContext;
+
+        }
+
+        [HttpGet]
+        public async Task< ActionResult<List<Lugar>> > getLugares()
+        {
+           var lugares= await _DbContext.Lugar.ToListAsync();
+           return Ok(lugares);
 
         }
 
         [HttpGet("{id}")]
 
-        public string getLugar(int id)
+        public async Task<ActionResult<Lugar>> getLugar(int id)
         {
-            return "Retornara un solo lugar"; 
+            return await _DbContext.Lugar.FindAsync(id);
         }
     }
 }

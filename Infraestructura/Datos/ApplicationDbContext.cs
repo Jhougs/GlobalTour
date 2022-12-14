@@ -2,10 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using API.entidiades;
+using Core.entidiades;
 using Microsoft.EntityFrameworkCore;
 
-namespace API.Datos
+namespace Infraestructura.Datos
 {
     public class ApplicationDbContext : DbContext
     {

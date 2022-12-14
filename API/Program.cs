@@ -1,4 +1,4 @@
-using API.Datos;
+using Infraestructura.Datos;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
